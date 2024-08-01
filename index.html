@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Clone Home Page Netflix</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img src="image/logo.png" width="50px" height="50px"></a>
+
+        <nav class="navbar">
+            <a href="#">Movies</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Series</a>
+            <a href="#">Animation</a>
+        </nav>
+
+        <div class="search">
+            <i class='bx bx-search'></i>
+            <input type="text" id="search-input" placeholder="search">
+        </div>
+
+        <div class="profile">
+            <a href="#"><i class='bx bx-bell'></i></a>
+            <a href="#"><i class='bx bx-user-circle'></i></a>
+        </div>        
+    </header>
+
+    <hr>
+
+    <div class="inner-body">
+        <div class="display-film-box">
+            
+            <!-- banner film -->
+            <div class="horizontal-scroll">
+                <div class="banner-film">
+                    <div class="item">
+                        <a href="#"><img src="image/spiderman-into-the-spider-verse.jpg"></a>
+                        <p><strong>Spiderman - Into The Spider Verse</strong></p>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="image/lord-of-the-rings-the-return-of-king.jpg"></a>
+                        <p><strong>Lord Of The Rings - The Return Of King</strong></p>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="image/avengers-end-game.jpg"></a>
+                        <p><strong>Avengers - End Game</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- recommend film -->
+            <div class="recommend-container">
+                <div class="navbar-recommend-film">
+                    <h4>Recommend</h4>
+                </div>
+                <div class="horizontal-scroll">
+                    <div class="recommend-film">
+                        <div class="item">
+                            <a href="#"><img src="image/deadpool-and-wolverine.jpg"></a>
+                            <p><strong>Deadpool & Wolverine</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/despicable-me-4.jpg"></a>
+                            <p><strong>Despicable Me 4</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/dont-look-up.jpg"></a>
+                            <p><strong>Dont Look Up</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/inside-out-2.jpg"></a>
+                            <p><strong>Inside Out 2</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/interstellar.jpg"></a>
+                            <p><strong>Interstellar</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/parasite.jpg"></a>
+                            <p><strong>Parasite</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/red-notice.jpg"></a>
+                            <p><strong>Red Notice</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- latest movie -->
+            <div class="latest-movie-container">
+                <div class="navbar-latest-movie-film">
+                    <h4>Latest Movie</h4>
+                </div>
+                <div class="horizontal-scroll">
+                    <div class="latest-movie">
+                        <div class="item">
+                            <a href="#"><img src="image/resident-evil-welcome-to-racoon-city.jpg"></a>
+                            <p><strong>Resident Evil - Welcome To Racoon City</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/spirited-away.jpg"></a>
+                            <p><strong>Spirited Away</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/the-dark-knight.jpg"></a>
+                            <p><strong>The Dark Knight</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/deadpool-and-wolverine.jpg"></a>
+                            <p><strong>Deadpool & Wolverine</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/wednesday.jpg"></a>
+                            <p><strong>Wednesday</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/your-name.jpg"></a>
+                            <p><strong>Your Name</strong></p>
+                        </div>
+                        <div class="item">
+                            <a href="#"><img src="image/interstellar.jpg"></a>
+                            <p><strong>Interstellar</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- GENRE BOX -->
+        <div class="genre-box">
+
+            <!-- GENRE FILM -->
+            <div class="genre-film">
+                <div class="navbar-genre">
+                    <p id="genre-film-button">Genre</p>
+                    <a href="#" id="more-genre-button">More</a>
+                </div>
+                <div class="genre-button-box">
+                    <button class="genre-button">Action</button>
+                    <button class="genre-button">Comedy</button>
+                    <button class="genre-button">Crime</button>
+                    <button class="genre-button">Drama</button>
+                    <button class="genre-button">Fantasy</button>
+                    <button class="genre-button">History</button>
+                    <button class="genre-button">Horror</button>
+                    <button class="genre-button">Romance</button>
+                    <button class="genre-button">Sci-Fi</button>
+                    <button class="genre-button">Thriller</button>
+                </div>
+            </div>
+
+            <!-- TOP RATED FILM -->
+            <div class="top-rated-box">
+                <p>Top Rated</p>
+                <div class="top-rated-film">
+                    <div class="item">
+                        <img src="image/topRated1.jpg">
+                        <div class="detail-top-rated">
+                            <a href="#"><h3>The Shawshank Redemption</h3></a>
+                            <p>1994 - <a href="#">Drama</a>, <a href="#">Crime</a></p>
+                            <div class="star-rate"> 
+                                <p>4.4</p>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half' ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/topRated2.jpg">
+                        <div class="detail-top-rated">
+                            <a href="#"><h3>The Godfather</h3></a>
+                            <p>1972 - <a href="#">Drama</a>, <a href="#">Crime</a></p>
+                            <div class="star-rate"> 
+                                <p>4.4</p>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half' ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/topRated3.jpg">
+                        <div class="detail-top-rated">
+                            <a href="#"><h3>Grave of the Fireflies</h3></a>
+                            <p>1988 - <a href="#">Animation</a>, <a href="#">Drama</a>, <a href="#">War</a></p>
+                            <div class="star-rate"> 
+                                <p>4.2</p>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half' ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="image/topRated4.jpg">
+                        <div class="detail-top-rated">
+                            <a href="#"><h3>A Silent Voice: The Movie</h3></a>
+                            <p>2016 - <a href="#">Animation</a>, <a href="#">Drama</a></p>
+                            <div class="star-rate"> 
+                                <p>4.2</p>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star-half' ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>made by <a href="https://instagram.com/zulfikarelreal">@zulfikarelreal</a></p>
+    </footer>
+
+</body>
+</html>
